@@ -1,5 +1,3 @@
-import React from "react";
-
 import Stepper from "./components/Stepper/Stepper";
 
 const stepsFromBackend = ["Customer info", "Shipping info", "Payment"];
