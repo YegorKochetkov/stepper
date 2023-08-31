@@ -1,7 +1,7 @@
 # Form stepper
 
-## Stack
+Simple example of stepper for multi step form
 
-React and Tailwind
+React, Tailwindcss, dark theme
 
-## [Demo]()
+## [Demo](https://yegorkochetkov.github.io/stepper/)
