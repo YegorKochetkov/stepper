@@ -11,10 +11,8 @@ function Stepper({ steps }: { steps: string[] }) {
           <div
             key={i}
             className={
-              "step-item" +
-              " " +
-              (currentStep === i + 1 ? "active" : "") +
-              (currentStep > i + 1 ? "complete" : "")
+              `step-item ${currentStep === i + 1 ? "active" : ""}
+              ${currentStep > i + 1 ? "complete" : ""}`
             }
           >
             <div className='step-index'>
